@@ -13,21 +13,31 @@ public class MyView extends View {
     public MyView(Context context) {
         super(context);
     }
-
+    Paint paint = new Paint();
+    float x, y, i;
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        Task.showMessage(getContext(), "Если что, я хотел золотое сечение,но вышло что получше. Или хуже)))))");
-        Paint paint = new Paint();
-        int y = 0, x = 0, fb, fb1 = 1, fb2 = 0;
-        for (int i = 0; i < 1000; i++) {
-            fb = fb1 + fb2;
-            canvas.drawLine((float) (540 + Math.cos(i/500)* i), (float)(960 + Math.sin(i/500) * i),
-                    (float) (540 + Math.cos(i+1/500)* (i + 1)), (float) (960 + Math.sin(i+1/500) * (i + 1)), paint);
-            fb2 = fb1;
-            fb1 = fb;
-        }
+        canvas.drawCircle(520, 960, 20, paint);
+        canvas.drawCircle(520 + (100 * x), 960 + (100 * y), 20, paint);
+        canvas.drawCircle(520 + (200 * x), 960 + (200 * y), 20, paint);
+        canvas.drawCircle(520 + (300 * x), 960 + (300 * y), 20, paint);
+        canvas.drawCircle(520 + (400 * x), 960 + (400 * y), 20, paint);
+        canvas.drawCircle(520 - (100 * x), 960 - (100 * y), 20, paint);
+        canvas.drawCircle(520 - (200 * x), 960 - (200 * y), 20, paint);
+        canvas.drawCircle(520 - (300 * x), 960 - (300 * y), 20, paint);
+        canvas.drawCircle(520 - (400 * x), 960 - (400 * y), 20, paint);
+        canvas.drawCircle(520 - (100 * x), 960 + (100 * y), 20, paint);
+        canvas.drawCircle(520 - (200 * x), 960 + (200 * y), 20, paint);
+        canvas.drawCircle(520 - (300 * x), 960 + (300 * y), 20, paint);
+        canvas.drawCircle(520 - (400 * x), 960 + (400 * y), 20, paint);
+        canvas.drawCircle(520 + (100 * x), 960 - (100 * y), 20, paint);
+        canvas.drawCircle(520 + (200 * x), 960 - (200 * y), 20, paint);
+        canvas.drawCircle(520 + (300 * x), 960 - (300 * y), 20, paint);
+        canvas.drawCircle(520 + (400 * x), 960 - (400 * y), 20, paint);
 
-
+        i += 0.05f;
+        x = (float) Math.cos(i); y = (float) Math.sin(i);
+        invalidate();
     }
 }
