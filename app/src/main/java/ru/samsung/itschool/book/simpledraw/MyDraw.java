@@ -12,26 +12,42 @@ import android.view.View;
 
 public class MyDraw extends View {
 
-    int N = 100; // количество шариков
+    Paint paint = new Paint();
+    int N = 500; // количество шариков
     float[] x  = new float[N];
     float[] y  = new float[N];
     float[] vx = new float[N];
     float[] vy = new float[N];
+
     public MyDraw(Context context) {
         super(context);
-        for (int i = 0; i < N; i++) {
-            x[i] = (float) (Math.random() * 500);
-            y[i] = (float) (Math.random() * 500);
-            vx[i] = (float) (Math.random() * 60 - 30);
-            vy[i] = (float) (Math.random() * 60 - 30);
+        fillRandom(x, 0, 500);
+        fillRandom(y, 0, 500);
+        fillRandom(vx, -10, 50);
+        fillRandom(vy, -10, 50);
+    }
+
+
+    float rand(float min , float max){
+        return (float)(Math.random() * (max - min + 1)) + min;
+    }
+
+    void fillRandom(float[] array , float min, float max){
+        for (int i = 0; i < array.length; i++){
+            array[i] = rand (min, max);
         }
     }
 
-    Paint paint = new Paint();
+    void add(float[] array , float[] values, int limit){
+        for (int i = 0; i < array.length; i++){
+            if (array[i] > limit || array[i] < 0) values[i] = -values[i];
+            if (values[i] > 0) values[i] -= 0.005;
+            else if (values[i] < 0) values[i] += 0.005;
+            array[i] += values[i];
+        }
+    }
 
-    @Override
-    protected void onDraw(Canvas canvas) {
-        // отрисовываем все шарики
+    void drawBalls(Canvas canvas){
         for (int i = 0; i < N - 1; i++) {
             canvas.drawLine(x[i], y[i], x[i + 1], y[i + 1], paint);
             if(i % 6 == 0) paint.setColor(Color.GREEN);
@@ -51,14 +67,13 @@ public class MyDraw extends View {
             if(i % 6 == 4) paint.setColor(Color.MAGENTA);
             if(i % 6 == 5) paint.setColor(Color.CYAN);
         }
-        // готовим массивы x и у для следущего кадра
-        for (int i = 0; i < N; i++) {
-            if (x[i] < 0 || x[i] > this.getWidth()) vx[i] = - vx[i];
-            if (y[i] < 0 || y[i] > this.getHeight()) vy[i] = - vy[i];
-            x[i] += vx[i];
-            y[i] += vy[i];
-        }
-        // Запрос на перерисовку экрана
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        drawBalls(canvas);
+        add(x, vx, this.getWidth());
+        add(y, vy, this.getHeight());
         invalidate();
     }
 }
