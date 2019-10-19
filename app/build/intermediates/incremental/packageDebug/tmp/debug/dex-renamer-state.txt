@@ -1,0 +1,4 @@
+#Sat Oct 19 08:52:17 MSK 2019
+base.0=C\:\\Users\\AdrianShephard\\StudioProjects\\DAYZ\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
