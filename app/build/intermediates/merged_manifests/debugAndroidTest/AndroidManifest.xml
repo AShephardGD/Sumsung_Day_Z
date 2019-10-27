@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.samsung.itschool.book.cells.test">
+    package="ru.samsung.itschool.book.logcat231.test">
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29" />
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="23" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="ru.samsung.itschool.book.cells"
+                     android:targetPackage="ru.samsung.itschool.book.logcat231"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for ru.samsung.itschool.book.cells"/>
+                     android:label="Tests for ru.samsung.itschool.book.logcat231"/>
 </manifest>
