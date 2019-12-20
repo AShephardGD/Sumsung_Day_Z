@@ -1,97 +1,87 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-MERGED from [com.android.support:design:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\1e7c48fa2e0b3a2cfa1b2042686b1bb8\design-23.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\2f79919a8ca8e2176c92e2d1d004356d\appcompat-v7-23.4.0\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\d608d5ab3fc4f191f46fe90b40029c58\animated-vector-drawable-23.4.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\6158a726481f8837b1c1f8ba9dce76dd\support-vector-drawable-23.4.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\3bfcef3cd743153bb5a49c653818aa6d\recyclerview-v7-23.4.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\b5b5d211c9458ca95fc994082dad01f1\support-v4-23.4.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-	android:versionCode
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:5:5-21:19
-MERGED from [com.android.support:design:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\1e7c48fa2e0b3a2cfa1b2042686b1bb8\design-23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\1e7c48fa2e0b3a2cfa1b2042686b1bb8\design-23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\2f79919a8ca8e2176c92e2d1d004356d\appcompat-v7-23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\2f79919a8ca8e2176c92e2d1d004356d\appcompat-v7-23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\d608d5ab3fc4f191f46fe90b40029c58\animated-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\d608d5ab3fc4f191f46fe90b40029c58\animated-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\6158a726481f8837b1c1f8ba9dce76dd\support-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\6158a726481f8837b1c1f8ba9dce76dd\support-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\b5b5d211c9458ca95fc994082dad01f1\support-v4-23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\b5b5d211c9458ca95fc994082dad01f1\support-v4-23.4.0\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AdrianShephard\.android\build-cache\ca5f2038640317f1a6728341156bfd7278706194\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\AdrianShephard\.android\build-cache\15e909f3c77983698bdaee095aee1b9c453a77ba\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\AdrianShephard\.android\build-cache\566c71f5f1a88d29c031e5f19a64880e76b9873c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\AdrianShephard\.android\build-cache\6857c1be914cc5057e4501dafab8fecfe2d7a226\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\AdrianShephard\.android\build-cache\bca41e9e2cfb0e5e423a4682efaba41679c4a87e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\AdrianShephard\.android\build-cache\4bea87e0e79fe312491886cb8e6a819e136bdfd0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\AdrianShephard\.android\build-cache\3d13bc5a9d5bf5f085a84d28ee04d6595b112044\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\AdrianShephard\.android\build-cache\698116754243194d3064a215cb533e2fad0a6ce7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\AdrianShephard\.android\build-cache\7dc65f559a91d49fbd3596af0334345089b8b6cb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AdrianShephard\.android\build-cache\01883e6beb8c4371a15cf85b47485c2c6f749b91\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:9:9-35
-	android:label
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:8:9-41
-	android:icon
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:9:9-54
 	android:allowBackup
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:10:9-40
-activity#ru.samsung.itschool.book.logcat231.MainActivity
-ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:11:9-20:20
-	android:label
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:13:13-45
-	android:theme
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:14:13-56
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:11:9-40
+activity#ru.samsung.itschool.asynctask.MainActivity
+ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:12:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:15:13-19:29
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\1e7c48fa2e0b3a2cfa1b2042686b1bb8\design-23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\1e7c48fa2e0b3a2cfa1b2042686b1bb8\design-23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\2f79919a8ca8e2176c92e2d1d004356d\appcompat-v7-23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\2f79919a8ca8e2176c92e2d1d004356d\appcompat-v7-23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\d608d5ab3fc4f191f46fe90b40029c58\animated-vector-drawable-23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\d608d5ab3fc4f191f46fe90b40029c58\animated-vector-drawable-23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\6158a726481f8837b1c1f8ba9dce76dd\support-vector-drawable-23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\6158a726481f8837b1c1f8ba9dce76dd\support-vector-drawable-23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\3bfcef3cd743153bb5a49c653818aa6d\recyclerview-v7-23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\3bfcef3cd743153bb5a49c653818aa6d\recyclerview-v7-23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\b5b5d211c9458ca95fc994082dad01f1\support-v4-23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\b5b5d211c9458ca95fc994082dad01f1\support-v4-23.4.0\AndroidManifest.xml:20:5-43
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AdrianShephard\.android\build-cache\ca5f2038640317f1a6728341156bfd7278706194\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\AdrianShephard\.android\build-cache\15e909f3c77983698bdaee095aee1b9c453a77ba\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\AdrianShephard\.android\build-cache\566c71f5f1a88d29c031e5f19a64880e76b9873c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\AdrianShephard\.android\build-cache\6857c1be914cc5057e4501dafab8fecfe2d7a226\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\AdrianShephard\.android\build-cache\bca41e9e2cfb0e5e423a4682efaba41679c4a87e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\AdrianShephard\.android\build-cache\4bea87e0e79fe312491886cb8e6a819e136bdfd0\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\AdrianShephard\.android\build-cache\3d13bc5a9d5bf5f085a84d28ee04d6595b112044\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\AdrianShephard\.android\build-cache\698116754243194d3064a215cb533e2fad0a6ce7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\AdrianShephard\.android\build-cache\7dc65f559a91d49fbd3596af0334345089b8b6cb\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AdrianShephard\.android\build-cache\01883e6beb8c4371a15cf85b47485c2c6f749b91\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\AdrianShephard\.gradle\caches\transforms-2\files-2.1\2f79919a8ca8e2176c92e2d1d004356d\appcompat-v7-23.4.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AdrianShephard\.android\build-cache\ca5f2038640317f1a6728341156bfd7278706194\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\AdrianShephard\StudioProjects\DAYZ\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AdrianShephard\StudioProjects\3.4_exercises\AsyncTask.3.4.1\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AdrianShephard\.android\build-cache\ca5f2038640317f1a6728341156bfd7278706194\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\AdrianShephard\.android\build-cache\15e909f3c77983698bdaee095aee1b9c453a77ba\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\AdrianShephard\.android\build-cache\566c71f5f1a88d29c031e5f19a64880e76b9873c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\AdrianShephard\.android\build-cache\6857c1be914cc5057e4501dafab8fecfe2d7a226\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\AdrianShephard\.android\build-cache\bca41e9e2cfb0e5e423a4682efaba41679c4a87e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\AdrianShephard\.android\build-cache\4bea87e0e79fe312491886cb8e6a819e136bdfd0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\AdrianShephard\.android\build-cache\3d13bc5a9d5bf5f085a84d28ee04d6595b112044\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\AdrianShephard\.android\build-cache\698116754243194d3064a215cb533e2fad0a6ce7\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\AdrianShephard\.android\build-cache\7dc65f559a91d49fbd3596af0334345089b8b6cb\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AdrianShephard\.android\build-cache\ca5f2038640317f1a6728341156bfd7278706194\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\AdrianShephard\.android\build-cache\ca5f2038640317f1a6728341156bfd7278706194\output\AndroidManifest.xml:26:9-47
