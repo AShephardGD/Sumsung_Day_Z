@@ -1,35 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="ru.samsung.itschool.asynctask.MainActivity">
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/coefficient_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Логин" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:text="Пароль" />
 
     <Button
-        android:id="@+id/Start"
-        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Начать процесс" />
+        android:text="Вход" />
 
     <Button
-        android:id="@+id/Stop"
-        android:layout_width="wrap_content"
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Пауза" />
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="20pt"
-        android:id="@+id/progressBar" />
+        android:text="Регистрация" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Восстановление пароля" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить пользователя(введите необходимые логин и пароль)" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выход" />
+
     <TextView
-        android:id="@+id/text"
-        android:text="Выполнено : 0 / 100"
-        android:layout_width="fill_parent"
-        android:layout_height="20pt" />
-    <CheckBox
-        android:layout_width="wrap_content"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="проверка"/>
+        android:textSize="24dp" />
 
 </LinearLayout>

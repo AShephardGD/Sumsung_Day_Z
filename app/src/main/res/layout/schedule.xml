@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="519dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/editzametki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lesson1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lesson20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                tools:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/changed"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="Изменить расписание"
+        app:layout_constraintBottom_toTopOf="@+id/Exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editzametki" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changed" />
+
+    <Button
+        android:id="@+id/editzametki"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="Заметки"
+        app:layout_constraintBottom_toTopOf="@+id/changed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
