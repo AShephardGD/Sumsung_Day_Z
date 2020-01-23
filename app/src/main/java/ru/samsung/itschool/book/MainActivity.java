@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 switch(v.getId()){
                     case R.id.btn_plus:
-                        tw.setText(" " + (Float.parseFloat(edA.getText().toString()) + Float.parseFloat(edB.getText().toString())));
+                        tw.setText(Double.toString((Double.parseDouble(edA.getText().toString()) + Double.parseDouble(edB.getText().toString()))));
                         break;
                     case R.id.btn_minus:
-                        tw.setText(" " + (Float.parseFloat(edA.getText().toString()) - Float.parseFloat(edB.getText().toString())));
+                        tw.setText(Double.toString((Double.parseDouble(edA.getText().toString()) - Double.parseDouble(edB.getText().toString()))));
                         break;
                     case R.id.btn_mult:
-                        tw.setText(" " + Float.parseFloat(edA.getText().toString()) * Float.parseFloat(edB.getText().toString()));
+                        tw.setText(Double.toString(Double.parseDouble(edA.getText().toString()) * Double.parseDouble(edB.getText().toString())));
                         break;
                     case R.id.btn_div:
-                        tw.setText(" " + Float.parseFloat(edA.getText().toString()) / Float.parseFloat(edB.getText().toString()));
+                        tw.setText(Double.toString(Double.parseDouble(edA.getText().toString()) / Double.parseDouble(edB.getText().toString())));
                         break;
                 }
             }
