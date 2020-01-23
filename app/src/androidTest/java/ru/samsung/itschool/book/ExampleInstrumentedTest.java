@@ -1,4 +1,4 @@
-package com.example.homework;
+package ru.samsung.itschool.book;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.homework", appContext.getPackageName());
+        assertEquals("ru.samsung.itschool.book", appContext.getPackageName());
     }
 }
