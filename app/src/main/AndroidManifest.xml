@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.homework">
+    package="ru.samsung.itschool.book">
 
     <application
         android:allowBackup="true"
@@ -15,31 +15,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".dnevnik"
-            android:label = "Дневник">
-        </activity>
-        <activity
-            android:name=".Registration"
-            android:label = "Регистрация">
-        </activity>
-        <activity
-            android:name=".Monday"
-            android:label="Выбранный день недели" >
-        </activity>
-
-        <activity
-            android:name=".ChangeMonday"
-            android:label = "Изменить Домашнее Задание">
-        </activity>
-        <activity
-            android:name=".Delusers"
-            android:label = "Восстановить пароль">
-        </activity>
-        <activity
-            android:name=".Zametki"
-            android:label = "Заметки">
         </activity>
     </application>
 
